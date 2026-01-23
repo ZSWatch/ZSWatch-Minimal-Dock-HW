@@ -1,0 +1,4 @@
+_local_|2026-01-23|root|Local changes not committed|False|True
+404174a|2026-01-23|Jakob Krantz|Expose SWD pins and remove SWD V REF as 1V8 is required.|True|True
+bdcd778|2026-01-23|Jakob Krantz|Minimal break out only dock.|True|True
+9a15dd8|2025-12-31|Daniel Kampert|Bug: Remove box around the version number|False|True
