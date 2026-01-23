@@ -128,7 +128,7 @@
 			(symbol "Conn_01x03_1_1_1"
 				(rectangle
 					(start -1.27 3.81)
-					(end 1.27 -3.81)
+					(end 1.27 -6.35)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -162,6 +162,17 @@
 				(rectangle
 					(start -1.27 -2.413)
 					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -5.08)
+					(end 0 -5.334)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -217,6 +228,24 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2132,146 +2161,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Misc:Jumper"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board no)
-			(property "Reference" "J"
-				(at -1.524 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Jumper"
-				(at 1.524 -3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.we-online.com/katalog/datasheet/60900213421.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic jumper cap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "manf" " Würth Elektronik"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "manf#" "60900213421"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Jumper_0_1"
-				(arc
-					(start -0.635 -1.27)
-					(mid -1.1611 0)
-					(end -0.635 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 1.27) (xy -0.635 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 -1.27) (xy -0.635 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_1_1"
-				(rectangle
-					(start -1.905 2.54)
-					(end 1.905 -2.54)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -0.635 1.27)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center -0.635 -1.27)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Regulator_Linear:TLV70218_SOT23-5"
 			(pin_names
 				(offset 0.254)
@@ -2878,12 +2767,6 @@
 		(uuid "e87d0486-7717-4400-adbc-aa936cedcf6f")
 	)
 	(junction
-		(at 30.48 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f318bcf5-f891-4250-b054-a29aa7c8212c")
-	)
-	(junction
 		(at 129.54 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2994,16 +2877,6 @@
 		)
 		(uuid "00865865-d3a8-4e2c-865c-95cc969a7d44")
 	)
-	(wire
-		(pts
-			(xy 30.48 69.85) (xy 30.48 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "025d2219-6011-4f96-a7f4-6b829af20b3b")
-	)
 	(polyline
 		(pts
 			(xy 182.88 13.97) (xy 182.88 104.14)
@@ -3024,26 +2897,6 @@
 			(type default)
 		)
 		(uuid "04412004-9483-41d2-9e57-43ea1efd2292")
-	)
-	(wire
-		(pts
-			(xy 69.85 59.69) (xy 69.85 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0447b978-bc30-4ac4-96f2-9fadd2824135")
-	)
-	(wire
-		(pts
-			(xy 34.29 67.31) (xy 34.29 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0786499d-5ff9-4c78-a470-1e641830b8ef")
 	)
 	(wire
 		(pts
@@ -3167,6 +3020,16 @@
 		)
 		(uuid "27175e2b-12c9-41df-b63d-2f9de8033977")
 	)
+	(wire
+		(pts
+			(xy 45.72 67.31) (xy 59.69 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2998ef49-50d3-4152-b692-b48185bbaa1d")
+	)
 	(polyline
 		(pts
 			(xy 71.12 13.97) (xy 71.12 50.8)
@@ -3217,16 +3080,6 @@
 			(type default)
 		)
 		(uuid "3a41be04-ce82-422b-b33d-7f5ef50b622c")
-	)
-	(wire
-		(pts
-			(xy 29.21 72.39) (xy 81.28 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40954f89-378d-450c-99af-5e3b501e6cfc")
 	)
 	(wire
 		(pts
@@ -3637,16 +3490,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 69.85) (xy 69.85 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be33aadc-a314-45f5-8cd1-466a47c4a2cc")
-	)
-	(wire
-		(pts
 			(xy 22.86 41.91) (xy 22.86 43.18)
 		)
 		(stroke
@@ -3674,26 +3517,6 @@
 			(type default)
 		)
 		(uuid "ce6929a2-42bf-4eb0-baaa-efbf6282c6c9")
-	)
-	(wire
-		(pts
-			(xy 29.21 67.31) (xy 34.29 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ceeea09e-941e-44a9-b74b-0175b2fc840f")
-	)
-	(wire
-		(pts
-			(xy 29.21 69.85) (xy 30.48 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfa4f9fb-210b-44ef-b23f-2a91f1a35641")
 	)
 	(wire
 		(pts
@@ -3725,16 +3548,6 @@
 			(color 194 194 194 1)
 		)
 		(uuid "d6b7f9de-8747-424e-ba96-b581ce6af13d")
-	)
-	(wire
-		(pts
-			(xy 81.28 72.39) (xy 81.28 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbe23dc1-5cff-4772-9ac5-124555bb8905")
 	)
 	(polyline
 		(pts
@@ -3797,6 +3610,16 @@
 			(type default)
 		)
 		(uuid "eb32ef75-d6a5-4f70-a368-a3c750771cbe")
+	)
+	(wire
+		(pts
+			(xy 30.48 74.93) (xy 30.48 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb495866-f8bf-4bae-a306-ca032a5c577b")
 	)
 	(wire
 		(pts
@@ -3872,6 +3695,28 @@
 		(uuid "04c64b75-3ec1-46ad-9e03-f043e8307d39")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 276.9383 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SWDIO_{LV}"
+		(shape bidirectional)
+		(at 45.72 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "080edf03-99a2-47ab-9e1a-cf7b8a3ade63")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 56.6139 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4035,6 +3880,28 @@
 			)
 		)
 	)
+	(global_label "RESETn_{LV}"
+		(shape output)
+		(at 45.72 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "69b22e66-d50e-43d1-860a-b47191dba5eb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 56.6893 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "V_{BUS}"
 		(shape output)
 		(at 264.16 29.21 0)
@@ -4070,6 +3937,28 @@
 		(uuid "7d65fb3a-4cc4-4cbc-bb58-20632908f3b2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 276.9383 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SWDCLK_{LV}"
+		(shape output)
+		(at 45.72 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "95699bec-17fa-42cd-94b1-5280b9ebc27c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.2942 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4541,139 +4430,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 81.28 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "34f332a1-0240-45d6-9e8c-d9e77c66cfa7")
-		(property "Reference" "#FLG01"
-			(at 81.28 57.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 81.28 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 81.28 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 81.28 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 81.28 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5e216470-0817-44ca-a10f-a63be974022b")
-		)
-		(instances
-			(project "ZSWatch-Dock"
-				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+1V8")
-		(at 34.29 59.69 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "36bed794-6e40-4e47-9740-f7cae821eab4")
-		(property "Reference" "#PWR0404"
-			(at 34.29 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+1V8"
-			(at 34.29 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 34.29 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.29 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 34.29 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9d92b0f0-00ea-4d1a-9f2f-59d076eec3d3")
-		)
-		(instances
-			(project "ZSWatch-Dock"
-				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#PWR0404")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 113.03 96.52 0)
 		(unit 1)
@@ -4944,7 +4700,7 @@
 	(symbol
 		(lib_name "Conn_01x03_1")
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 24.13 69.85 180)
+		(at 40.64 67.31 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4953,7 +4709,7 @@
 		(fields_autoplaced yes)
 		(uuid "52d82e5a-55e1-404b-93b4-b63301b3fed8")
 		(property "Reference" "J402"
-			(at 24.13 60.96 0)
+			(at 40.64 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4961,15 +4717,16 @@
 			)
 		)
 		(property "Value" "Voltage"
-			(at 24.13 63.5 0)
+			(at 40.64 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 24.13 69.85 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 40.64 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4978,7 +4735,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_econostik_254headers.pdf"
-			(at 24.13 69.85 0)
+			(at 40.64 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4987,7 +4744,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 24.13 69.85 0)
+			(at 40.64 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4996,7 +4753,7 @@
 			)
 		)
 		(property "manf" "Amphenol FCI"
-			(at 24.13 69.85 0)
+			(at 40.64 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5005,7 +4762,7 @@
 			)
 		)
 		(property "manf#" "10129378-936001BLF"
-			(at 24.13 69.85 0)
+			(at 40.64 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5014,7 +4771,7 @@
 			)
 		)
 		(property "mouser#" "649-10129378-936001BLF"
-			(at 24.13 69.85 0)
+			(at 40.64 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5023,7 +4780,7 @@
 			)
 		)
 		(property "CONFIG" ""
-			(at 24.13 69.85 0)
+			(at 40.64 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5032,7 +4789,7 @@
 			)
 		)
 		(property "digikey#" ""
-			(at 24.13 69.85 0)
+			(at 40.64 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5049,6 +4806,9 @@
 		(pin "3"
 			(uuid "3e868e6f-51b8-4f9b-ae19-e08c0dcd7d45")
 		)
+		(pin "4"
+			(uuid "8def88e9-8a37-4c1d-9696-39104a94ab4f")
+		)
 		(instances
 			(project ""
 				(path "/74a2d9cd-6788-49ca-9d1d-a5e7b3102f3e"
@@ -5059,6 +4819,73 @@
 			(project ""
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
 					(reference "J402")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V8")
+		(at 30.48 74.93 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5664444d-0223-485c-8e49-826931019c13")
+		(property "Reference" "#PWR02"
+			(at 30.48 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 30.48 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 30.48 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9370f9b7-51af-4cd8-9154-e0b9361dee0f")
+		)
+		(instances
+			(project "ZSWatch-Dock"
+				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -5756,72 +5583,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 69.85 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a905a3b1-ac40-4f23-93ab-548adb9a7c8a")
-		(property "Reference" "#FLG0402"
-			(at 69.85 57.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 69.85 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.85 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 69.85 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 69.85 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "de7fc4db-32ba-4664-ba93-44bb2f3e4b29")
-		)
-		(instances
-			(project "ZSWatch-Dock"
-				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#FLG0402")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 196.85 96.52 0)
 		(unit 1)
@@ -6011,6 +5772,73 @@
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
 					(reference "#PWR0403")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V8")
+		(at 59.69 67.31 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd1f1648-ef95-4f14-93fa-f4971c6bca3f")
+		(property "Reference" "#PWR03"
+			(at 59.69 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 59.69 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 59.69 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34bf3818-4abb-418b-8a0e-ea1737a849e0")
+		)
+		(instances
+			(project "ZSWatch-Dock"
+				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -6391,121 +6219,6 @@
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
 					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Misc:Jumper")
-		(at 20.32 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(uuid "f63ebd49-9c91-432d-939d-f65dd39d13de")
-		(property "Reference" "J401"
-			(at 17.145 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Jumper"
-			(at 22.86 69.8499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 20.32 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/katalog/datasheet/60900213421.pdf"
-			(at 20.32 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic jumper cap"
-			(at 20.32 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf" "Würth Elektronik"
-			(at 20.32 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "60900213421"
-			(at 20.32 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser#" "710-60900213421"
-			(at 20.32 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONFIG" ""
-			(at 20.32 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey#" ""
-			(at 20.32 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/74a2d9cd-6788-49ca-9d1d-a5e7b3102f3e"
-					(reference "J101")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "J401")
 					(unit 1)
 				)
 			)
