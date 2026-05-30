@@ -1,10 +1,12 @@
-# ZSWatch-Dock
+# ZSWatch-Minimal-Dock
 
 [![License](https://img.shields.io/badge/License-GPL%203.0-blue.svg)](https://opensource.org/license/gpl-3-0/)
+[![PCB](https://github.com/ZSWatch/ZSWatch-Minimal-Dock-HW/actions/workflows/minimal-dock.yaml/badge.svg)](https://github.com/ZSWatch/ZSWatch-Minimal-Dock-HW/actions/workflows/minimal-dock.yaml)
+[![Documentation](https://img.shields.io/badge/Documentation-HTML-007ec6?longCache=true&style=flat&logo=asciidoctor&colorA=555555)](https://zswatch.github.io/ZSWatch-Minimal-Dock-HW/)
 
 ## 📑 Table of Contents
 
-- [ZSWatch-Dock](#zswatch-dock)
+- [ZSWatch-Minimal-Dock](#zswatch-minimal-dock)
   - [📑 Table of Contents](#-table-of-contents)
   - [📖 About](#-about)
   - [📂 Directory Breakdown](#-directory-breakdown)
@@ -13,7 +15,7 @@
 
 ## 📖 About
 
-The **ZSWatch-Dock** project provides the hardware design and production files for a docking station tailored to the ZSWatch ecosystem.  
+The **ZSWatch-Minimal-Dock** project provides the hardware design and production files for a docking station tailored to the ZSWatch ecosystem.  
 It is built with **KiCad** and integrates a full **CI/CD pipeline** using **KiBot**, ensuring reproducible outputs for documentation, manufacturing, and releases.
 
 Key features:
@@ -25,8 +27,6 @@ Key features:
 - 🌍 Designed with collaboration and transparency in mind
 
 Please check the [wiki](https://github.com/ZSWatch/ZSWatch/wiki) for more information about the project.
-
-You can also view this project on [CADLAB.io](https://cadlab.io/project/29657). 
 
 ## 📂 Directory Breakdown
 

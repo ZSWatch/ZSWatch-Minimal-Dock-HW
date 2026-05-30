@@ -1,9 +1,0 @@
-Row,Quantity Per PCB,References,Value,Datasheet,Footprint,Description,manf,manf#
-1,1,C402,2u2,https://www.mouser.de/datasheet/2/40/cx5r_KGM-3223198.pdf,C_0603_1608Metric,"Unpolarized capacitor, small symbol",KYOCERA AVX,0603YD225KAT4A
-2,1,IC401,TLV70218_SOT23-5,http://www.ti.com/lit/ds/symlink/tlv702.pdf,SOT-23-5,"300mA Low Dropout Voltage Regulator, Fixed Output 1.8V, SOT-23-5",Texas Instruments,TLV70218DBVRG4
-3,2,J1 J402,UART,https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_econostik_254headers.pdf,PinHeader_1x04_P2.54mm_Vertical,"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",Amphenol FCI,10129378-936001BLF
-4,1,R418,0R,https://www.mouser.de/datasheet/2/54/cr-1858361.pdf,R_0805_2012Metric,"Resistor, small symbol",Bourns,CR0805-J/-000ELF
-5,2,R409 R410,5k1,https://www.vishay.com/doc?20035,R_0603_1608Metric,"Resistor, small symbol",Vishay,CRCW06035K10FKEA
-6,1,X401,Debug,https://www.we-online.com/components/products/datasheet/62101021021.pdf,SHF-105-01-L-D-SM-TR,"Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface",Wurth Elektronik,62101021021
-7,1,X404,Device,https://spec.globtek.info/spec/pdf/2342615/d2760418,PLUG-USBC-241SMT-4BC2SS,USB Full-Featured Type-C edge connector,"GlobTek, Inc.",PLUG-USBC-241SMT-4BC2SS
-8,1,X403,Host,https://www.usb.org/sites/default/files/documents/usb_type-c.zip,USB_C_Receptacle_Amphenol_12401610E4-2A,USB Full-Featured Type-C Receptacle connector,Amphenol Commercial Products,12401610E4-2A
