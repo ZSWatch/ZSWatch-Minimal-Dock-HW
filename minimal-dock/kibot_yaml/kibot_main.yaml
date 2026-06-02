@@ -434,7 +434,8 @@ import:
     definitions:
       NAME: @COPY_LOGO@
       COMMENT: Copy logo
-      DIR: @COPY_LOGO_DIR@
+      OUTDIR: @COPY_LOGO_DIR@
+      SOURCE: @LOGO@
 
   # Schematic in PDF format
   - file: kibot_out_pdf_schematic.yaml
@@ -557,7 +558,7 @@ definitions:
   DESIGNER: Daniel Kampert
 
   LOGO: 'Logos/ZSWatch_logo_with_text.png'
-  GIT_URL: 'https://github.com/ZSWatch/Minimal-Dock-HW'
+  GIT_URL: 'https://github.com/ZSWatch/ZSWatch-Minimal-Dock-HW'
 
   # Preflight ==================================================================
 

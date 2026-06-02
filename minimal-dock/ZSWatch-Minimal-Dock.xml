@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/__w/ZSWatch-Minimal-Dock-HW/ZSWatch-Minimal-Dock-HW/minimal-dock/ZSWatch-Minimal-Dock.kicad_sch</source>
+    <date>2026-06-02T10:11:06+0000</date>
+    <tool>Eeschema 9.0.7+1</tool>
+    <textvar name="ASSEMBLY_NOTES"/>
+    <textvar name="BOARD_NAME">Minimal-Dock-HW</textvar>
+    <textvar name="COMPANY">ZSWatch</textvar>
+    <textvar name="DESIGNER">Daniel Kampert</textvar>
+    <textvar name="FABRICATION_NOTES"/>
+    <textvar name="GIT_HASH_PCB">4f8bf69</textvar>
+    <textvar name="GIT_HASH_SCH">4f8bf69</textvar>
+    <textvar name="GIT_URL">https://github.com/ZSWatch/ZSWatch-Minimal-Dock-HW</textvar>
+    <textvar name="PROJECT_NAME">ZSWatch-Minimal-Dock</textvar>
+    <textvar name="RELEASE_BODY_1.0.0">Version 1.0.0 not found.</textvar>
+    <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
+    <textvar name="RELEASE_DATE">30-May-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-05-30</textvar>
+    <textvar name="RELEASE_TITLE_1.0.0">Version 1.0.0 not found.</textvar>
+    <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased not found.</textvar>
+    <textvar name="REVISION"/>
+    <textvar name="SHEET_NAME_1">Cover Page</textvar>
+    <textvar name="SHEET_NAME_10">......................................</textvar>
+    <textvar name="SHEET_NAME_11">......................................</textvar>
+    <textvar name="SHEET_NAME_12">......................................</textvar>
+    <textvar name="SHEET_NAME_13">......................................</textvar>
+    <textvar name="SHEET_NAME_14">......................................</textvar>
+    <textvar name="SHEET_NAME_15">......................................</textvar>
+    <textvar name="SHEET_NAME_16">......................................</textvar>
+    <textvar name="SHEET_NAME_17">......................................</textvar>
+    <textvar name="SHEET_NAME_18">......................................</textvar>
+    <textvar name="SHEET_NAME_19">......................................</textvar>
+    <textvar name="SHEET_NAME_2">Project Architecture</textvar>
+    <textvar name="SHEET_NAME_20">......................................</textvar>
+    <textvar name="SHEET_NAME_21">......................................</textvar>
+    <textvar name="SHEET_NAME_22">......................................</textvar>
+    <textvar name="SHEET_NAME_23">......................................</textvar>
+    <textvar name="SHEET_NAME_24">......................................</textvar>
+    <textvar name="SHEET_NAME_25">......................................</textvar>
+    <textvar name="SHEET_NAME_26">......................................</textvar>
+    <textvar name="SHEET_NAME_27">......................................</textvar>
+    <textvar name="SHEET_NAME_28">......................................</textvar>
+    <textvar name="SHEET_NAME_29">......................................</textvar>
+    <textvar name="SHEET_NAME_3">Main</textvar>
+    <textvar name="SHEET_NAME_30">......................................</textvar>
+    <textvar name="SHEET_NAME_31">......................................</textvar>
+    <textvar name="SHEET_NAME_32">......................................</textvar>
+    <textvar name="SHEET_NAME_33">......................................</textvar>
+    <textvar name="SHEET_NAME_34">......................................</textvar>
+    <textvar name="SHEET_NAME_35">......................................</textvar>
+    <textvar name="SHEET_NAME_36">......................................</textvar>
+    <textvar name="SHEET_NAME_37">......................................</textvar>
+    <textvar name="SHEET_NAME_38">......................................</textvar>
+    <textvar name="SHEET_NAME_39">......................................</textvar>
+    <textvar name="SHEET_NAME_4">Revision History</textvar>
+    <textvar name="SHEET_NAME_40">......................................</textvar>
+    <textvar name="SHEET_NAME_5">......................................</textvar>
+    <textvar name="SHEET_NAME_6">......................................</textvar>
+    <textvar name="SHEET_NAME_7">......................................</textvar>
+    <textvar name="SHEET_NAME_8">......................................</textvar>
+    <textvar name="SHEET_NAME_9">......................................</textvar>
+    <textvar name="VARIANT">CHECKED</textvar>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Dock-DevKit</title>
+        <company>ZSWatch</company>
+        <rev/>
+        <date>2026-05-30</date>
+        <source>ZSWatch-Minimal-Dock.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Project Architecture/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/">
+      <title_block>
+        <title>Power-Management</title>
+        <company>ZSWatch</company>
+        <rev/>
+        <date>2026-05-30</date>
+        <source>Project Architecture.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Project Architecture/Main/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2/">
+      <title_block>
+        <title>ZSWatch Dock v2</title>
+        <company>ZSWatch</company>
+        <rev/>
+        <date>2026-05-30</date>
+        <source>Main.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Revision History/" tstamps="/6e125bd6-2f99-4e5d-b3ea-4899f4540739/">
+      <title_block>
+        <title>Revision-History</title>
+        <company>ZSWatch</company>
+        <rev/>
+        <date>2026-05-30</date>
+        <source>Revision History.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C301">
+      <value>2u2</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/40/cx5r_KGM-3223198.pdf</datasheet>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="CONFIG"/>
+        <field name="manf">KYOCERA AVX</field>
+        <field name="manf#">0603YD225KAT4A</field>
+        <field name="mouser#">581-0603YD225KAT4A</field>
+        <field name="digikey#"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">https://www.mouser.de/datasheet/2/40/cx5r_KGM-3223198.pdf</field>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="CONFIG" value=""/>
+      <property name="manf" value="KYOCERA AVX"/>
+      <property name="manf#" value="0603YD225KAT4A"/>
+      <property name="mouser#" value="581-0603YD225KAT4A"/>
+      <property name="digikey#" value=""/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Project Architecture/Main/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2/"/>
+      <tstamps>4b59e4f4-b5de-47de-8c72-ac50f9274ba0</tstamps>
+    </comp>
+    <comp ref="C401">
+      <value>2u2</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/40/cx5r_KGM-3223198.pdf</datasheet>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="CONFIG"/>
+        <field name="manf">KYOCERA AVX</field>
+        <field name="manf#">0603YD225KAT4A</field>
+        <field name="mouser#">581-0603YD225KAT4A</field>
+        <field name="digikey#"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">https://www.mouser.de/datasheet/2/40/cx5r_KGM-3223198.pdf</field>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="CONFIG" value=""/>
+      <property name="manf" value="KYOCERA AVX"/>
+      <property name="manf#" value="0603YD225KAT4A"/>
+      <property name="mouser#" value="581-0603YD225KAT4A"/>
+      <property name="digikey#" value=""/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Project Architecture/Main/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2/"/>
+      <tstamps>fba32480-9908-45b8-a55d-10498bdb4ecb</tstamps>
+    </comp>
+    <comp ref="H401">
+      <value>MountingHole_Pad_MP</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole without connection</description>
+      <fields>
+        <field name="manf"/>
+        <field name="manf#"/>
+        <field name="mouser#"/>
+        <field name="Footprint">MountingHole:MountingHole_2.2mm_M2</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole without connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="manf" value=""/>
+      <property name="manf#" value=""/>
+      <property name="mouser#" value=""/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/Project Architecture/Main/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2/"/>
+      <tstamps>db098f6d-88d6-4f12-8ee8-6516f264ffcb</tstamps>
+    </comp>
+    <comp ref="H402">
+      <value>MountingHole_Pad_MP</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole without connection</description>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_2.2mm_M2</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole without connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/Project Architecture/Main/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2/"/>
+      <tstamps>f57c34f5-18a0-4dea-a6a9-1b812f8d80f2</tstamps>
+    </comp>
+    <comp ref="IC401">
+      <value>TLV70218</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tlv702.pdf</datasheet>
+      <description>300mA Low Dropout Voltage Regulator, Fixed Output 1.8V, SOT-23-5</description>
+      <fields>
+        <field name="manf">Texas Instruments</field>
+        <field name="manf#">TLV70218DBVRG4</field>
+        <field name="mouser#">595-TLV70218DBVRG4</field>
+        <field name="CONFIG"/>
+        <field name="digikey#"/>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tlv702.pdf</field>
+        <field name="Description">300mA Low Dropout Voltage Regulator, Fixed Output 1.8V, SOT-23-5</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="TLV70218_SOT23-5" description="300mA Low Dropout Voltage Regulator, Fixed Output 1.8V, SOT-23-5"/>
+      <property name="manf" value="Texas Instruments"/>
+      <property name="manf#" value="TLV70218DBVRG4"/>
+      <property name="mouser#" value="595-TLV70218DBVRG4"/>
+      <property name="CONFIG" value=""/>
+      <property name="digikey#" value=""/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="ki_keywords" value="300mA LDO Regulator Fixed Positive"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/Project Architecture/Main/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2/"/>
+      <tstamps>7e2d6c2a-9c1f-4947-b00a-9e971eae5208</tstamps>
+    </comp>
+    <comp ref="R401">
+      <value>5k1</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.vishay.com/doc?20035</datasheet>
+      <description>Resistor, small symbol</description>
+      <fields>
+        <field name="manf">Vishay</field>
+        <field name="manf#">CRCW06035K10FKEA</field>
+        <field name="mouser#">71-CRCW06035K10FKEA</field>
+        <field name="CONFIG"/>
+        <field name="digikey#"/>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">https://www.vishay.com/doc?20035</field>
+        <field name="Description">Resistor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="manf" value="Vishay"/>
+      <property name="manf#" value="CRCW06035K10FKEA"/>
+      <property name="mouser#" value="71-CRCW06035K10FKEA"/>
+      <property name="CONFIG" value=""/>
+      <property name="digikey#" value=""/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Project Architecture/Main/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2/"/>
+      <tstamps>f9341b73-7b37-4ba5-9f30-fca183e81bce</tstamps>
+    </comp>
+    <comp ref="R402">
+      <value>5k1</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.vishay.com/doc?20035</datasheet>
+      <description>Resistor, small symbol</description>
+      <fields>
+        <field name="manf">Vishay</field>
+        <field name="manf#">CRCW06035K10FKEA</field>
+        <field name="mouser#">71-CRCW06035K10FKEA</field>
+        <field name="CONFIG"/>
+        <field name="digikey#"/>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">https://www.vishay.com/doc?20035</field>
+        <field name="Description">Resistor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="manf" value="Vishay"/>
+      <property name="manf#" value="CRCW06035K10FKEA"/>
+      <property name="mouser#" value="71-CRCW06035K10FKEA"/>
+      <property name="CONFIG" value=""/>
+      <property name="digikey#" value=""/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Project Architecture/Main/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2/"/>
+      <tstamps>ce0d651b-3763-462b-8932-7e31f9f4acba</tstamps>
+    </comp>
+    <comp ref="R403">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/54/cr-1858361.pdf</datasheet>
+      <description>Resistor, small symbol</description>
+      <fields>
+        <field name="CONFIG"/>
+        <field name="manf">Bourns</field>
+        <field name="manf#">CR0805-J/-000ELF</field>
+        <field name="mouser#">652-CR0805-J/-000ELF</field>
+        <field name="digikey#"/>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet">https://www.mouser.de/datasheet/2/54/cr-1858361.pdf</field>
+        <field name="Description">Resistor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="CONFIG" value=""/>
+      <property name="manf" value="Bourns"/>
+      <property name="manf#" value="CR0805-J/-000ELF"/>
+      <property name="mouser#" value="652-CR0805-J/-000ELF"/>
+      <property name="digikey#" value=""/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Project Architecture/Main/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2/"/>
+      <tstamps>9229c3d5-bcb4-4110-8394-de2f103588ff</tstamps>
+    </comp>
+    <comp ref="X401">
+      <value>Debug</value>
+      <footprint>Samtec:SHF-105-01-L-D-SM-TR</footprint>
+      <datasheet>http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf</datasheet>
+      <description>Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface</description>
+      <fields>
+        <field name="CONFIG"/>
+        <field name="manf">Wurth Elektronik</field>
+        <field name="manf#">62101021021</field>
+        <field name="mouser#">710-62101021021</field>
+        <field name="digikey#"/>
+        <field name="Footprint">Samtec:SHF-105-01-L-D-SM-TR</field>
+        <field name="Datasheet">http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf</field>
+        <field name="Description">Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_ARM_JTAG_SWD_10" description="Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface"/>
+      <property name="CONFIG" value=""/>
+      <property name="manf" value="Wurth Elektronik"/>
+      <property name="manf#" value="62101021021"/>
+      <property name="mouser#" value="710-62101021021"/>
+      <property name="digikey#" value=""/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="ki_keywords" value="Cortex Debug Connector ARM SWD JTAG"/>
+      <property name="ki_fp_filters" value="PinHeader?2x05?P1.27mm*"/>
+      <sheetpath names="/Project Architecture/Main/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2/"/>
+      <tstamps>49bf4fbf-7c2b-49c5-985b-c42fad007adf</tstamps>
+    </comp>
+    <comp ref="X402">
+      <value>Voltage</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <fields>
+        <field name="manf">Amphenol FCI</field>
+        <field name="manf#">10129378-936001BLF</field>
+        <field name="mouser#">649-10129378-936001BLF</field>
+        <field name="CONFIG"/>
+        <field name="digikey#"/>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="manf" value="Amphenol FCI"/>
+      <property name="manf#" value="10129378-936001BLF"/>
+      <property name="mouser#" value="649-10129378-936001BLF"/>
+      <property name="CONFIG" value=""/>
+      <property name="digikey#" value=""/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Project Architecture/Main/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2/"/>
+      <tstamps>52d82e5a-55e1-404b-93b4-b63301b3fed8</tstamps>
+    </comp>
+    <comp ref="X403">
+      <value>Host</value>
+      <footprint>Connector_USB:USB_C_Receptacle_Amphenol_12401610E4-2A</footprint>
+      <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
+      <description>USB Full-Featured Type-C Receptacle connector</description>
+      <fields>
+        <field name="CONFIG"/>
+        <field name="manf">Amphenol Commercial Products</field>
+        <field name="manf#">12401610E4-2A</field>
+        <field name="mouser#">523-12401610E4#2A</field>
+        <field name="digikey#"/>
+        <field name="Footprint">Connector_USB:USB_C_Receptacle_Amphenol_12401610E4-2A</field>
+        <field name="Datasheet">https://www.usb.org/sites/default/files/documents/usb_type-c.zip</field>
+        <field name="Description">USB Full-Featured Type-C Receptacle connector</field>
+      </fields>
+      <libsource lib="Connector" part="USB_C_Receptacle" description="USB Full-Featured Type-C Receptacle connector"/>
+      <property name="CONFIG" value=""/>
+      <property name="manf" value="Amphenol Commercial Products"/>
+      <property name="manf#" value="12401610E4-2A"/>
+      <property name="mouser#" value="523-12401610E4#2A"/>
+      <property name="digikey#" value=""/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="ki_keywords" value="usb universal serial bus type-C full-featured"/>
+      <property name="ki_fp_filters" value="USB*C*Receptacle*"/>
+      <sheetpath names="/Project Architecture/Main/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2/"/>
+      <tstamps>889c034c-113b-4038-a4fe-7dcfcb1037e9</tstamps>
+    </comp>
+    <comp ref="X404">
+      <value>Device</value>
+      <footprint>GlobTect:PLUG-USBC-241SMT-4BC2SS</footprint>
+      <datasheet>https://spec.globtek.info/spec/pdf/2342615/d2760418</datasheet>
+      <description>USB Full-Featured Type-C edge connector</description>
+      <fields>
+        <field name="CONFIG"/>
+        <field name="manf">GlobTek, Inc.</field>
+        <field name="manf#">PLUG-USBC-241SMT-4BC2SS</field>
+        <field name="mouser#"/>
+        <field name="digikey#">1939-PLUG-USBC-241SMT-4BC2SSCT-ND</field>
+        <field name="Footprint">GlobTect:PLUG-USBC-241SMT-4BC2SS</field>
+        <field name="Datasheet">https://spec.globtek.info/spec/pdf/2342615/d2760418</field>
+        <field name="Description">USB Full-Featured Type-C edge connector</field>
+      </fields>
+      <libsource lib="Connector" part="USB_C_Receptacle" description="USB Full-Featured Type-C Receptacle connector"/>
+      <property name="CONFIG" value=""/>
+      <property name="manf" value="GlobTek, Inc."/>
+      <property name="manf#" value="PLUG-USBC-241SMT-4BC2SS"/>
+      <property name="mouser#" value=""/>
+      <property name="digikey#" value="1939-PLUG-USBC-241SMT-4BC2SSCT-ND"/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="ki_keywords" value="usb universal serial bus type-C full-featured"/>
+      <property name="ki_fp_filters" value="USB*C*Receptacle*"/>
+      <sheetpath names="/Project Architecture/Main/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2/"/>
+      <tstamps>ffc731a8-b733-42af-83bc-5fe747e3f89a</tstamps>
+    </comp>
+    <comp ref="X405">
+      <value>UART</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <fields>
+        <field name="manf">Amphenol FCI</field>
+        <field name="manf#">10129378-936001BLF</field>
+        <field name="mouser#">649-10129378-936001BLF</field>
+        <field name="CONFIG"/>
+        <field name="digikey#"/>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="manf" value="Amphenol FCI"/>
+      <property name="manf#" value="10129378-936001BLF"/>
+      <property name="mouser#" value="649-10129378-936001BLF"/>
+      <property name="CONFIG" value=""/>
+      <property name="digikey#" value=""/>
+      <property name="Sheetname" value="Main"/>
+      <property name="Sheetfile" value="Main.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Project Architecture/Main/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2/"/>
+      <tstamps>1a9ab2e1-18e1-4441-a486-01e3401ccca3</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_ARM_JTAG_SWD_10">
+      <description>Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface</description>
+      <docs>http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf</docs>
+      <footprints>
+        <fp>PinHeader?2x05?P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_ARM_JTAG_SWD_10</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf</field>
+        <field name="Description">Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VTref" type="power_in"/>
+        <pin num="2" name="SWDIO/TMS" type="bidirectional"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="SWCLK/TCK" type="output"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="SWO/TDO" type="input"/>
+        <pin num="7" name="KEY" type="no_connect"/>
+        <pin num="8" name="NC/TDI" type="output"/>
+        <pin num="9" name="GNDDetect" type="passive"/>
+        <pin num="10" name="~{RESET}" type="open_collector"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_C_Receptacle">
+      <description>USB Full-Featured Type-C Receptacle connector</description>
+      <docs>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</docs>
+      <footprints>
+        <fp>USB*C*Receptacle*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_C_Receptacle</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.usb.org/sites/default/files/documents/usb_type-c.zip</field>
+        <field name="Description">USB Full-Featured Type-C Receptacle connector</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="passive"/>
+        <pin num="A2" name="TX1+" type="bidirectional"/>
+        <pin num="A3" name="TX1-" type="bidirectional"/>
+        <pin num="A4" name="VBUS" type="passive"/>
+        <pin num="A5" name="CC1" type="bidirectional"/>
+        <pin num="A6" name="D+" type="bidirectional"/>
+        <pin num="A7" name="D-" type="bidirectional"/>
+        <pin num="A8" name="SBU1" type="bidirectional"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A10" name="RX2-" type="bidirectional"/>
+        <pin num="A11" name="RX2+" type="bidirectional"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B2" name="TX2+" type="bidirectional"/>
+        <pin num="B3" name="TX2-" type="bidirectional"/>
+        <pin num="B4" name="VBUS" type="passive"/>
+        <pin num="B5" name="CC2" type="bidirectional"/>
+        <pin num="B6" name="D+" type="bidirectional"/>
+        <pin num="B7" name="D-" type="bidirectional"/>
+        <pin num="B8" name="SBU2" type="bidirectional"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B10" name="RX1-" type="bidirectional"/>
+        <pin num="B11" name="RX1+" type="bidirectional"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor, small symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole without connection</field>
+      </fields>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="TLV70218_SOT23-5">
+      <description>300mA Low Dropout Voltage Regulator, Fixed Output 1.8V, SOT-23-5</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tlv702.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLV70218_SOT23-5</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tlv702.pdf</field>
+        <field name="Description">300mA Low Dropout Voltage Regulator, Fixed Output 1.8V, SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC" type="no_connect"/>
+        <pin num="5" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/usr/share/kicad/symbols//Regulator_Linear.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+1V8" class="Default">
+      <node ref="C401" pin="1" pintype="passive"/>
+      <node ref="IC401" pin="5" pinfunction="OUT" pintype="power_out"/>
+      <node ref="X401" pin="1" pinfunction="VTref" pintype="power_in"/>
+      <node ref="X402" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="2" name="GND" class="Default">
+      <node ref="C301" pin="2" pintype="passive"/>
+      <node ref="C401" pin="2" pintype="passive"/>
+      <node ref="IC401" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="R401" pin="2" pintype="passive"/>
+      <node ref="R402" pin="1" pintype="passive"/>
+      <node ref="X401" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="X401" pin="5" pinfunction="GND" pintype="passive"/>
+      <node ref="X403" pin="A1" pinfunction="GND" pintype="passive"/>
+      <node ref="X403" pin="A12" pinfunction="GND" pintype="passive"/>
+      <node ref="X403" pin="B1" pinfunction="GND" pintype="passive"/>
+      <node ref="X403" pin="B12" pinfunction="GND" pintype="passive"/>
+      <node ref="X403" pin="S1" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="X404" pin="A1" pinfunction="GND" pintype="passive"/>
+      <node ref="X404" pin="A12" pinfunction="GND" pintype="passive"/>
+      <node ref="X404" pin="B1" pinfunction="GND" pintype="passive"/>
+      <node ref="X404" pin="B12" pinfunction="GND" pintype="passive"/>
+      <node ref="X404" pin="S1" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="X405" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="3" name="Net-(R403-Pad2)" class="Default">
+      <node ref="R403" pin="2" pintype="passive"/>
+      <node ref="X404" pin="A4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="X404" pin="A9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="X404" pin="B4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="X404" pin="B9" pinfunction="VBUS" pintype="passive"/>
+    </net>
+    <net code="4" name="Net-(X403-CC1)" class="Default">
+      <node ref="R402" pin="2" pintype="passive"/>
+      <node ref="X403" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="Net-(X403-CC2)" class="Default">
+      <node ref="R401" pin="1" pintype="passive"/>
+      <node ref="X403" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="RESETn_{LV}" class="Default">
+      <node ref="X401" pin="10" pinfunction="~{RESET}" pintype="open_collector"/>
+      <node ref="X402" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="X404" pin="A8" pinfunction="SBU1" pintype="bidirectional"/>
+      <node ref="X405" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="7" name="RxD_{LV}" class="Default">
+      <node ref="X404" pin="A2" pinfunction="TX1+" pintype="bidirectional"/>
+      <node ref="X405" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="8" name="SWDCLK_{LV}" class="Default">
+      <node ref="X401" pin="4" pinfunction="SWCLK/TCK" pintype="output"/>
+      <node ref="X402" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="X404" pin="A11" pinfunction="RX2+" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="SWDIO_{LV}" class="Default">
+      <node ref="X401" pin="2" pinfunction="SWDIO/TMS" pintype="bidirectional"/>
+      <node ref="X402" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="X404" pin="A10" pinfunction="RX2-" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="TxD_{LV}" class="Default">
+      <node ref="X404" pin="A3" pinfunction="TX1-" pintype="bidirectional"/>
+      <node ref="X405" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="11" name="USB-D+" class="Default">
+      <node ref="X403" pin="A6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="X403" pin="B6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="X404" pin="A6" pinfunction="D+" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="USB-D-" class="Default">
+      <node ref="X403" pin="A7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="X403" pin="B7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="X404" pin="A7" pinfunction="D-" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="V_{BUS}" class="Default">
+      <node ref="C301" pin="1" pintype="passive"/>
+      <node ref="IC401" pin="1" pinfunction="IN" pintype="power_in"/>
+      <node ref="IC401" pin="3" pinfunction="EN" pintype="input"/>
+      <node ref="R403" pin="1" pintype="passive"/>
+      <node ref="X403" pin="A4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="X403" pin="A9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="X403" pin="B4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="X403" pin="B9" pinfunction="VBUS" pintype="passive"/>
+    </net>
+    <net code="14" name="unconnected-(IC401-NC-Pad4)" class="Default">
+      <node ref="IC401" pin="4" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="15" name="unconnected-(X401-GNDDetect-Pad9)" class="Default">
+      <node ref="X401" pin="9" pinfunction="GNDDetect" pintype="passive+no_connect"/>
+    </net>
+    <net code="16" name="unconnected-(X401-KEY-Pad7)" class="Default">
+      <node ref="X401" pin="7" pinfunction="KEY" pintype="no_connect"/>
+    </net>
+    <net code="17" name="unconnected-(X401-NC/TDI-Pad8)" class="Default">
+      <node ref="X401" pin="8" pinfunction="NC/TDI" pintype="output+no_connect"/>
+    </net>
+    <net code="18" name="unconnected-(X401-SWO/TDO-Pad6)" class="Default">
+      <node ref="X401" pin="6" pinfunction="SWO/TDO" pintype="input+no_connect"/>
+    </net>
+    <net code="19" name="unconnected-(X403-RX1+-PadB11)" class="Default">
+      <node ref="X403" pin="B11" pinfunction="RX1+" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="20" name="unconnected-(X403-RX1--PadB10)" class="Default">
+      <node ref="X403" pin="B10" pinfunction="RX1-" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="21" name="unconnected-(X403-RX2+-PadA11)" class="Default">
+      <node ref="X403" pin="A11" pinfunction="RX2+" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="22" name="unconnected-(X403-RX2--PadA10)" class="Default">
+      <node ref="X403" pin="A10" pinfunction="RX2-" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(X403-SBU1-PadA8)" class="Default">
+      <node ref="X403" pin="A8" pinfunction="SBU1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="24" name="unconnected-(X403-SBU2-PadB8)" class="Default">
+      <node ref="X403" pin="B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(X403-TX1+-PadA2)" class="Default">
+      <node ref="X403" pin="A2" pinfunction="TX1+" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(X403-TX1--PadA3)" class="Default">
+      <node ref="X403" pin="A3" pinfunction="TX1-" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(X403-TX2+-PadB2)" class="Default">
+      <node ref="X403" pin="B2" pinfunction="TX2+" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="28" name="unconnected-(X403-TX2--PadB3)" class="Default">
+      <node ref="X403" pin="B3" pinfunction="TX2-" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="29" name="unconnected-(X404-CC1-PadA5)" class="Default">
+      <node ref="X404" pin="A5" pinfunction="CC1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="30" name="unconnected-(X404-CC2-PadB5)" class="Default">
+      <node ref="X404" pin="B5" pinfunction="CC2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(X404-D+-PadB6)" class="Default">
+      <node ref="X404" pin="B6" pinfunction="D+" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(X404-D--PadB7)" class="Default">
+      <node ref="X404" pin="B7" pinfunction="D-" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(X404-RX1+-PadB11)" class="Default">
+      <node ref="X404" pin="B11" pinfunction="RX1+" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(X404-RX1--PadB10)" class="Default">
+      <node ref="X404" pin="B10" pinfunction="RX1-" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(X404-SBU2-PadB8)" class="Default">
+      <node ref="X404" pin="B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(X404-TX2+-PadB2)" class="Default">
+      <node ref="X404" pin="B2" pinfunction="TX2+" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(X404-TX2--PadB3)" class="Default">
+      <node ref="X404" pin="B3" pinfunction="TX2-" pintype="bidirectional+no_connect"/>
+    </net>
+  </nets>
+</export>
