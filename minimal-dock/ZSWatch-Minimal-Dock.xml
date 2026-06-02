@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/__w/ZSWatch-Minimal-Dock-HW/ZSWatch-Minimal-Dock-HW/minimal-dock/ZSWatch-Minimal-Dock.kicad_sch</source>
-    <date>2026-06-02T10:11:06+0000</date>
+    <date>2026-06-02T10:32:41+0000</date>
     <tool>Eeschema 9.0.7+1</tool>
     <textvar name="ASSEMBLY_NOTES"/>
     <textvar name="BOARD_NAME">Minimal-Dock-HW</textvar>
@@ -13,11 +13,11 @@
     <textvar name="GIT_HASH_SCH">4f8bf69</textvar>
     <textvar name="GIT_URL">https://github.com/ZSWatch/ZSWatch-Minimal-Dock-HW</textvar>
     <textvar name="PROJECT_NAME">ZSWatch-Minimal-Dock</textvar>
-    <textvar name="RELEASE_BODY_1.0.0">Version 1.0.0 not found.</textvar>
+    <textvar name="RELEASE_BODY_1.0.0">-   Initial release</textvar>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">30-May-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-05-30</textvar>
-    <textvar name="RELEASE_TITLE_1.0.0">Version 1.0.0 not found.</textvar>
+    <textvar name="RELEASE_DATE">02-Jun-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-06-02</textvar>
+    <textvar name="RELEASE_TITLE_1.0.0">Version 1.0.0 - 2026-06-02</textvar>
     <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased not found.</textvar>
     <textvar name="REVISION"/>
     <textvar name="SHEET_NAME_1">Cover Page</textvar>
@@ -60,7 +60,7 @@
     <textvar name="SHEET_NAME_7">......................................</textvar>
     <textvar name="SHEET_NAME_8">......................................</textvar>
     <textvar name="SHEET_NAME_9">......................................</textvar>
-    <textvar name="VARIANT">CHECKED</textvar>
+    <textvar name="VARIANT">RELEASED</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Dock-DevKit</title>
