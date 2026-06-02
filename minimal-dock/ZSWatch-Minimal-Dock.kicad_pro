@@ -858,11 +858,11 @@
     "GIT_HASH_SCH": "4f8bf69",
     "GIT_URL": "https://github.com/ZSWatch/ZSWatch-Minimal-Dock-HW",
     "PROJECT_NAME": "ZSWatch-Minimal-Dock",
-    "RELEASE_BODY_1.0.0": "Version 1.0.0 not found.",
+    "RELEASE_BODY_1.0.0": "-   Initial release",
     "RELEASE_BODY_UNRELEASED": "Version Unreleased not found.",
-    "RELEASE_DATE": "30-May-2026",
-    "RELEASE_DATE_NUM": "2026-05-30",
-    "RELEASE_TITLE_1.0.0": "Version 1.0.0 not found.",
+    "RELEASE_DATE": "02-Jun-2026",
+    "RELEASE_DATE_NUM": "2026-06-02",
+    "RELEASE_TITLE_1.0.0": "Version 1.0.0 - 2026-06-02",
     "RELEASE_TITLE_UNRELEASED": "Version Unreleased not found.",
     "REVISION": "",
     "SHEET_NAME_1": "Cover Page",
@@ -905,6 +905,6 @@
     "SHEET_NAME_7": "......................................",
     "SHEET_NAME_8": "......................................",
     "SHEET_NAME_9": "......................................",
-    "VARIANT": "CHECKED"
+    "VARIANT": "RELEASED"
   }
 }
