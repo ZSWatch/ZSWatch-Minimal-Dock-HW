@@ -10,6 +10,9 @@ global:
   dnp_cross_top_layer: '@LAYER_DNP_TOP@'
   dnp_cross_bottom_layer: '@LAYER_DNP_BOTTOM@'
   extra_pth_drill: 0 # for annular ring computation.
+  # PCB-only footprints (logos, kibuzzard labels) crash the iBoM netlist in KiBot 1.9.1.
+  # They are all board-only and excluded from the BoM, so leaving them out changes no output.
+  include_components_from_pcb: false
   filters:
     # 'KiCad config without environment.vars section'
     - number: 9
