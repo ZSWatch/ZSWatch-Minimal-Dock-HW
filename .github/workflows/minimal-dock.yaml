@@ -129,6 +129,15 @@ jobs:
           git clone https://github.com/Kampi/KiCad.git kicad-library
           echo "KICAD_LIBRARY=$(pwd)/kicad-library" >> $GITHUB_ENV
 
+      # KiBot 1.9.1 crashes writing the iBoM netlist for footprints that are only in the PCB.
+      # Fixed upstream in INTI-CMNB/KiBot da86694e; drop this step once the image includes it.
+      - name: Patch KiBot iBoM crash
+        shell: bash
+        run: |
+          f=$(python3 -c "import kibot.kicad.v5_sch as m; print(m.__file__)")
+          sed -i "s/if hasattr(c, 'parent_sheet'):/if getattr(c, 'parent_sheet', None) is not None:/" "$f"
+          grep -n "getattr(c, 'parent_sheet', None)" "$f" || echo "Patch not applied, check the KiBot version"
+
       - name: Extract release notes
         if: ${{ github.ref_type == 'tag' }}
         uses: ffurrer2/extract-release-notes@v2
