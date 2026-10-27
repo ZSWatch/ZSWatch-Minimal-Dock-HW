@@ -2352,6 +2352,647 @@
 			)
 			(embedded_fonts no)
 		)
+
+		(symbol "SameSky:UP32-C-H-G-SMT-3-P24-TR"
+      (pin_names
+        (offset 1.016))
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "X"
+        (at -10.16 29.21 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (justify left)))
+      (property "Value" "UP32-C-H-G-SMT-3-P24-TR"
+        (at 10.16 29.21 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (justify right)))
+      (property "Footprint" "SameSky:SAMESKY_UP32-C-H-G-SMT-3-P24-TR"
+        (at 3.81 0 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property "Datasheet" "https://www.sameskydevices.com/product/resource/up32-c-h-g-smt-3-p24-tr.pdf"
+        (at 3.81 0 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property "Description" "USB-C male 24-position horizontal mid-mount connector"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property "ki_keywords" "USB C male plug Same Sky 24 pins"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property "ki_fp_filters" "SAMESKY_UP32-C-H-G-SMT-3-P24-TR"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (symbol "UP32-C-H-G-SMT-3-P24-TR_0_0"
+        (rectangle
+          (start -0.254 -35.56)
+          (end 0.254 -34.544)
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type none)))
+        (rectangle
+          (start 10.16 25.654)
+          (end 9.144 25.146)
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type none)))
+        (rectangle
+          (start 10.16 20.574)
+          (end 9.144 20.066)
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type none)))
+        (rectangle
+          (start 10.16 18.034)
+          (end 9.144 17.526)
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type none)))
+        (rectangle
+          (start 10.16 12.954)
+          (end 9.144 12.446)
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type none)))
+        (rectangle
+          (start 10.16 10.414)
+          (end 9.144 9.906)
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type none)))
+        (rectangle
+          (start 10.16 7.874)
+          (end 9.144 7.366)
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type none)))
+        (rectangle
+          (start 10.16 5.334)
+          (end 9.144 4.826)
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type none)))
+        (rectangle
+          (start 10.16 0.254)
+          (end 9.144 -0.254)
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type none)))
+        (rectangle
+          (start 10.16 -2.286)
+          (end 9.144 -2.794)
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type none)))
+        (rectangle
+          (start 10.16 -7.366)
+          (end 9.144 -7.874)
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type none)))
+        (rectangle
+          (start 10.16 -9.906)
+          (end 9.144 -10.414)
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type none)))
+        (rectangle
+          (start 10.16 -14.986)
+          (end 9.144 -15.494)
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type none)))
+        (rectangle
+          (start 10.16 -17.526)
+          (end 9.144 -18.034)
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type none)))
+        (rectangle
+          (start 10.16 -22.606)
+          (end 9.144 -23.114)
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type none)))
+        (rectangle
+          (start 10.16 -25.146)
+          (end 9.144 -25.654)
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type none)))
+        (rectangle
+          (start 10.16 -30.226)
+          (end 9.144 -30.734)
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type none)))
+        (rectangle
+          (start 10.16 -32.766)
+          (end 9.144 -33.274)
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type none))))
+      (symbol "UP32-C-H-G-SMT-3-P24-TR_0_1"
+        (rectangle
+          (start -10.16 27.94)
+          (end 10.16 -35.56)
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type background)))
+        (polyline
+          (pts
+            (xy -8.89 -3.81)
+            (xy -8.89 3.81))
+          (stroke
+            (width 0.508)
+            (type default))
+          (fill
+            (type none)))
+        (rectangle
+          (start -7.62 -3.81)
+          (end -6.35 3.81)
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type outline)))
+        (arc
+          (start -7.62 3.81)
+          (mid -6.985 4.4423)
+          (end -6.35 3.81)
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type none)))
+        (arc
+          (start -7.62 3.81)
+          (mid -6.985 4.4423)
+          (end -6.35 3.81)
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type outline)))
+        (arc
+          (start -8.89 3.81)
+          (mid -6.985 5.7067)
+          (end -5.08 3.81)
+          (stroke
+            (width 0.508)
+            (type default))
+          (fill
+            (type none)))
+        (arc
+          (start -5.08 -3.81)
+          (mid -6.985 -5.7067)
+          (end -8.89 -3.81)
+          (stroke
+            (width 0.508)
+            (type default))
+          (fill
+            (type none)))
+        (arc
+          (start -6.35 -3.81)
+          (mid -6.985 -4.4423)
+          (end -7.62 -3.81)
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type none)))
+        (arc
+          (start -6.35 -3.81)
+          (mid -6.985 -4.4423)
+          (end -7.62 -3.81)
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type outline)))
+        (polyline
+          (pts
+            (xy -5.08 3.81)
+            (xy -5.08 -3.81))
+          (stroke
+            (width 0.508)
+            (type default))
+          (fill
+            (type none))))
+      (symbol "UP32-C-H-G-SMT-3-P24-TR_1_1"
+        (circle
+          (center -2.54 1.143)
+          (radius 0.635)
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type outline)))
+        (polyline
+          (pts
+            (xy -1.27 4.318)
+            (xy 0 6.858)
+            (xy 1.27 4.318)
+            (xy -1.27 4.318))
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type outline)))
+        (polyline
+          (pts
+            (xy 0 -2.032)
+            (xy 2.54 0.508)
+            (xy 2.54 1.778))
+          (stroke
+            (width 0.508)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy 0 -3.302)
+            (xy -2.54 -0.762)
+            (xy -2.54 0.508))
+          (stroke
+            (width 0.508)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy 0 -5.842)
+            (xy 0 4.318))
+          (stroke
+            (width 0.508)
+            (type default))
+          (fill
+            (type none)))
+        (circle
+          (center 0 -5.842)
+          (radius 1.27)
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type outline)))
+        (rectangle
+          (start 1.905 1.778)
+          (end 3.175 3.048)
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type outline)))
+        (pin passive line
+          (at -7.62 -40.64 90)
+          (length 5.08)
+          (name "SHIELD"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "SH1"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at 0 -40.64 90)
+          (length 5.08)
+          (name "GND"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "A1"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at 0 -40.64 90)
+          (length 5.08)
+          (hide yes)
+          (name "GND"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "A12"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at 0 -40.64 90)
+          (length 5.08)
+          (hide yes)
+          (name "GND"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "B1"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at 0 -40.64 90)
+          (length 5.08)
+          (hide yes)
+          (name "GND"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "B12"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at 15.24 25.4 180)
+          (length 5.08)
+          (name "VBUS"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "A4"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at 15.24 25.4 180)
+          (length 5.08)
+          (hide yes)
+          (name "VBUS"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "A9"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at 15.24 25.4 180)
+          (length 5.08)
+          (hide yes)
+          (name "VBUS"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "B4"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at 15.24 25.4 180)
+          (length 5.08)
+          (hide yes)
+          (name "VBUS"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "B9"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at 15.24 20.32 180)
+          (length 5.08)
+          (name "CC1"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "A5"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at 15.24 17.78 180)
+          (length 5.08)
+          (name "CC2"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "B5"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at 15.24 12.7 180)
+          (length 5.08)
+          (name "DN1"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "A7"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at 15.24 10.16 180)
+          (length 5.08)
+          (name "DN2"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "B7"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at 15.24 7.62 180)
+          (length 5.08)
+          (name "DP1"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "A6"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at 15.24 5.08 180)
+          (length 5.08)
+          (name "DP2"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "B6"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at 15.24 0 180)
+          (length 5.08)
+          (name "SSRXN1"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "B10"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at 15.24 -2.54 180)
+          (length 5.08)
+          (name "SSRXP1"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "B11"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at 15.24 -7.62 180)
+          (length 5.08)
+          (name "SSTXN1"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "A3"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at 15.24 -10.16 180)
+          (length 5.08)
+          (name "SSTXP1"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "A2"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at 15.24 -15.24 180)
+          (length 5.08)
+          (name "SSRXN2"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "A10"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at 15.24 -17.78 180)
+          (length 5.08)
+          (name "SSRXP2"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "A11"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at 15.24 -22.86 180)
+          (length 5.08)
+          (name "SSTXN2"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "B3"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at 15.24 -25.4 180)
+          (length 5.08)
+          (name "SSTXP2"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "B2"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at 15.24 -30.48 180)
+          (length 5.08)
+          (name "SBU1"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "A8"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at 15.24 -33.02 180)
+          (length 5.08)
+          (name "SBU2"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "B8"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line hide
+          (at -7.62 -40.64 90)
+          (length 5.08)
+          (name "SHIELD"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "SH2"
+            (effects
+              (font
+                (size 1.27 1.27))))))
+      (embedded_fonts no))
 	)
 	(text "USB (To Host/Computer)"
 		(exclude_from_sim no)
@@ -6439,184 +7080,128 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:USB_C_Receptacle")
-		(at 246.38 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ffc731a8-b733-42af-83bc-5fe747e3f89a")
-		(property "Reference" "X404"
-			(at 238.76 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Device"
-			(at 239.395 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "GlobTect:PLUG-USBC-241SMT-4BC2SS"
-			(at 250.19 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://spec.globtek.info/spec/pdf/2342615/d2760418"
-			(at 250.19 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "USB Full-Featured Type-C edge connector"
-			(at 246.38 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONFIG" ""
-			(at 246.38 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf" "GlobTek, Inc."
-			(at 246.38 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "PLUG-USBC-241SMT-4BC2SS"
-			(at 246.38 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser#" ""
-			(at 246.38 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey#" "1939-PLUG-USBC-241SMT-4BC2SSCT-ND"
-			(at 246.38 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A1"
-			(uuid "18c8a85f-5c32-4f32-8e8d-d5e9177ed795")
-		)
-		(pin "A12"
-			(uuid "0e18ead5-082d-49bb-b24a-e6402580af8a")
-		)
-		(pin "A4"
-			(uuid "ed974005-4a12-4f09-a9cc-4bddaeaeec0c")
-		)
-		(pin "A5"
-			(uuid "b6d904f5-ca2b-4f83-9e75-2ad28bd910d1")
-		)
-		(pin "A6"
-			(uuid "85b9a7c8-b23d-448a-b0b9-09611b5f0f83")
-		)
-		(pin "A7"
-			(uuid "325fe727-8316-4019-8799-6ff8c8c11194")
-		)
-		(pin "A8"
-			(uuid "69df51c3-a055-4da8-81c2-ed0a743f6b03")
-		)
-		(pin "A9"
-			(uuid "ad61a7a9-a691-47d2-ad6d-497b9b347114")
-		)
-		(pin "B1"
-			(uuid "98c58781-afce-47af-b2d3-604834c2d89e")
-		)
-		(pin "B12"
-			(uuid "94b2a155-17bf-41dd-a131-c4060e0c474b")
-		)
-		(pin "B4"
-			(uuid "7c74a5df-d08b-4fa6-a282-ff9fb9c585ce")
-		)
-		(pin "B5"
-			(uuid "f44a3dc4-7555-428c-92d3-10e18cfe4c4b")
-		)
-		(pin "B6"
-			(uuid "9aaa46e0-0082-46c3-aa21-df90d339e4f4")
-		)
-		(pin "B7"
-			(uuid "167dacce-e354-45c8-be8a-098074602a20")
-		)
-		(pin "B8"
-			(uuid "52af15d7-4986-4621-aa9d-bbe94707d2b7")
-		)
-		(pin "B9"
-			(uuid "50325f54-a14b-4b0d-8012-a4ab606a7997")
-		)
-		(pin "S1"
-			(uuid "84616486-2825-439b-b31f-b5540cf15d70")
-		)
-		(pin "A2"
-			(uuid "0415538b-ac0d-41b6-b485-341fd3e44125")
-		)
-		(pin "A10"
-			(uuid "ff32e74c-0f43-4047-a2db-976fdf762bf7")
-		)
-		(pin "B10"
-			(uuid "849f0b63-661e-496d-8e9c-e1913f2edce7")
-		)
-		(pin "A3"
-			(uuid "e8a51f48-18b1-4831-b3a8-c3aedcf2998c")
-		)
-		(pin "B11"
-			(uuid "09e23094-a363-4ca4-ad8e-100490c6e6b6")
-		)
-		(pin "B3"
-			(uuid "8d647cee-1b90-45b1-a079-48c1e9c9aa54")
-		)
-		(pin "A11"
-			(uuid "727e975b-dd45-4f03-8300-5d27d8951c23")
-		)
-		(pin "B2"
-			(uuid "112f5708-115c-4525-81b3-3a4d25e70e2e")
-		)
-		(instances
-			(project "ZSWatch-Dock"
-				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "X404")
-					(unit 1)
-				)
-			)
-		)
-	)
+    (lib_id "SameSky:UP32-C-H-G-SMT-3-P24-TR")
+    (at 246.38 128.27 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "ffc731a8-b733-42af-83bc-5fe747e3f89a")
+    (property "Reference" "X404"
+      (at 238.76 99.06 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" "UP32-C-H-G-SMT-3-P24-TR"
+      (at 239.395 165.1 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Footprint" "SameSky:SAMESKY_UP32-C-H-G-SMT-3-P24-TR"
+      (at 250.19 128.27 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Datasheet" "https://www.sameskydevices.com/product/resource/up32-c-h-g-smt-3-p24-tr.pdf"
+      (at 250.19 128.27 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Description" "USB-C male 24-position horizontal mid-mount connector"
+      (at 246.38 128.27 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "CONFIG" ""
+      (at 246.38 128.27 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "manf" "Same Sky"
+      (at 246.38 128.27 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "manf#" "UP32-C-H-G-SMT-3-P24-TR"
+      (at 246.38 128.27 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "mouser#" "179-UP32CHGSMT3P24TR"
+      (at 246.38 128.27 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "digikey#" "2223-UP32-C-H-G-SMT-3-P24-TRCT-ND"
+      (at 246.38 128.27 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin "A1"
+      (uuid "18c8a85f-5c32-4f32-8e8d-d5e9177ed795"))
+    (pin "A12"
+      (uuid "0e18ead5-082d-49bb-b24a-e6402580af8a"))
+    (pin "A4"
+      (uuid "ed974005-4a12-4f09-a9cc-4bddaeaeec0c"))
+    (pin "A5"
+      (uuid "b6d904f5-ca2b-4f83-9e75-2ad28bd910d1"))
+    (pin "A6"
+      (uuid "85b9a7c8-b23d-448a-b0b9-09611b5f0f83"))
+    (pin "A7"
+      (uuid "325fe727-8316-4019-8799-6ff8c8c11194"))
+    (pin "A8"
+      (uuid "69df51c3-a055-4da8-81c2-ed0a743f6b03"))
+    (pin "A9"
+      (uuid "ad61a7a9-a691-47d2-ad6d-497b9b347114"))
+    (pin "B1"
+      (uuid "98c58781-afce-47af-b2d3-604834c2d89e"))
+    (pin "B12"
+      (uuid "94b2a155-17bf-41dd-a131-c4060e0c474b"))
+    (pin "B4"
+      (uuid "7c74a5df-d08b-4fa6-a282-ff9fb9c585ce"))
+    (pin "B5"
+      (uuid "f44a3dc4-7555-428c-92d3-10e18cfe4c4b"))
+    (pin "B6"
+      (uuid "9aaa46e0-0082-46c3-aa21-df90d339e4f4"))
+    (pin "B7"
+      (uuid "167dacce-e354-45c8-be8a-098074602a20"))
+    (pin "B8"
+      (uuid "52af15d7-4986-4621-aa9d-bbe94707d2b7"))
+    (pin "B9"
+      (uuid "50325f54-a14b-4b0d-8012-a4ab606a7997"))
+    (pin "SH1"
+      (uuid "84616486-2825-439b-b31f-b5540cf15d70"))
+    (pin "A2"
+      (uuid "0415538b-ac0d-41b6-b485-341fd3e44125"))
+    (pin "A10"
+      (uuid "ff32e74c-0f43-4047-a2db-976fdf762bf7"))
+    (pin "B10"
+      (uuid "849f0b63-661e-496d-8e9c-e1913f2edce7"))
+    (pin "A3"
+      (uuid "e8a51f48-18b1-4831-b3a8-c3aedcf2998c"))
+    (pin "B11"
+      (uuid "09e23094-a363-4ca4-ad8e-100490c6e6b6"))
+    (pin "B3"
+      (uuid "8d647cee-1b90-45b1-a079-48c1e9c9aa54"))
+    (pin "A11"
+      (uuid "727e975b-dd45-4f03-8300-5d27d8951c23"))
+    (pin "B2"
+      (uuid "112f5708-115c-4525-81b3-3a4d25e70e2e"))
+    (instances
+      (project "ZSWatch-Dock"
+        (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
+          (reference "X404")
+          (unit 1))))
+    (pin "SH2"
+      (uuid "01a41e47-5e3f-4dd4-b24a-82bc29902a00")))
 )
