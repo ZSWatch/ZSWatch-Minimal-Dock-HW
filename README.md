@@ -32,9 +32,9 @@ Please check the [wiki](https://github.com/ZSWatch/ZSWatch/wiki) for more inform
 
 - **`.github`**: GitHub related files
 - **`.gitignore`**: Ignored files list
-- **`dock`**: KiCad project for the dock
+- **`minimal-dock`**: KiCad project for the dock
+- **`minimal-dock/CHANGELOG.md`**: Version history
 - **`production`**: Manufacturing outputs (Gerbers, documentation, etc.)
-- **`CHANGELOG.md`**: Version history
 - **`LICENSE`**: Project license (GPL-3.0)
 - **`README.md`**: Project overview
 
