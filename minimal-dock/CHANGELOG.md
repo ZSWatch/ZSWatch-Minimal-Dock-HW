@@ -2,6 +2,9 @@
 
 ## [Unreleased]
 
+-   Replace the out-of-stock GlobTek USB-C plug (X404) with Same Sky UP32-C-H-G-SMT-3-P24-TR
+-   Change board thickness to 1.0 mm
+
 ## [1.0.0] - 2026-06-02
 
 -   Initial release

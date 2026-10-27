@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "SameSky")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/SameSky.pretty")(options "")(descr "Same Sky USB-C connector"))
+)
