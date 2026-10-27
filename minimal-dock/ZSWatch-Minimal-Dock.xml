@@ -2,22 +2,24 @@
 <export version="E">
   <design>
     <source>/__w/ZSWatch-Minimal-Dock-HW/ZSWatch-Minimal-Dock-HW/minimal-dock/ZSWatch-Minimal-Dock.kicad_sch</source>
-    <date>2026-06-02T10:32:41+0000</date>
+    <date>2026-10-27T20:29:00+0000</date>
     <tool>Eeschema 9.0.7+1</tool>
     <textvar name="ASSEMBLY_NOTES"/>
     <textvar name="BOARD_NAME">Minimal-Dock-HW</textvar>
     <textvar name="COMPANY">ZSWatch</textvar>
     <textvar name="DESIGNER">Daniel Kampert</textvar>
     <textvar name="FABRICATION_NOTES"/>
-    <textvar name="GIT_HASH_PCB">4f8bf69</textvar>
+    <textvar name="GIT_HASH_PCB">554dddb</textvar>
     <textvar name="GIT_HASH_SCH">4f8bf69</textvar>
     <textvar name="GIT_URL">https://github.com/ZSWatch/ZSWatch-Minimal-Dock-HW</textvar>
     <textvar name="PROJECT_NAME">ZSWatch-Minimal-Dock</textvar>
     <textvar name="RELEASE_BODY_1.0.0">-   Initial release</textvar>
+    <textvar name="RELEASE_BODY_1.1.0">Version 1.1.0 not found.</textvar>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">02-Jun-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-06-02</textvar>
+    <textvar name="RELEASE_DATE">27-Oct-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-10-27</textvar>
     <textvar name="RELEASE_TITLE_1.0.0">Version 1.0.0 - 2026-06-02</textvar>
+    <textvar name="RELEASE_TITLE_1.1.0">Version 1.1.0 not found.</textvar>
     <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased not found.</textvar>
     <textvar name="REVISION"/>
     <textvar name="SHEET_NAME_1">Cover Page</textvar>
@@ -60,7 +62,7 @@
     <textvar name="SHEET_NAME_7">......................................</textvar>
     <textvar name="SHEET_NAME_8">......................................</textvar>
     <textvar name="SHEET_NAME_9">......................................</textvar>
-    <textvar name="VARIANT">RELEASED</textvar>
+    <textvar name="VARIANT">CHECKED</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Dock-DevKit</title>
@@ -432,30 +434,30 @@
       <tstamps>889c034c-113b-4038-a4fe-7dcfcb1037e9</tstamps>
     </comp>
     <comp ref="X404">
-      <value>Device</value>
-      <footprint>GlobTect:PLUG-USBC-241SMT-4BC2SS</footprint>
-      <datasheet>https://spec.globtek.info/spec/pdf/2342615/d2760418</datasheet>
-      <description>USB Full-Featured Type-C edge connector</description>
+      <value>UP32-C-H-G-SMT-3-P24-TR</value>
+      <footprint>SameSky:SAMESKY_UP32-C-H-G-SMT-3-P24-TR</footprint>
+      <datasheet>https://www.sameskydevices.com/product/resource/up32-c-h-g-smt-3-p24-tr.pdf</datasheet>
+      <description>USB-C male 24-position horizontal mid-mount connector</description>
       <fields>
         <field name="CONFIG"/>
-        <field name="manf">GlobTek, Inc.</field>
-        <field name="manf#">PLUG-USBC-241SMT-4BC2SS</field>
-        <field name="mouser#"/>
-        <field name="digikey#">1939-PLUG-USBC-241SMT-4BC2SSCT-ND</field>
-        <field name="Footprint">GlobTect:PLUG-USBC-241SMT-4BC2SS</field>
-        <field name="Datasheet">https://spec.globtek.info/spec/pdf/2342615/d2760418</field>
-        <field name="Description">USB Full-Featured Type-C edge connector</field>
+        <field name="manf">Same Sky</field>
+        <field name="manf#">UP32-C-H-G-SMT-3-P24-TR</field>
+        <field name="mouser#">179-UP32CHGSMT3P24TR</field>
+        <field name="digikey#">2223-UP32-C-H-G-SMT-3-P24-TRCT-ND</field>
+        <field name="Footprint">SameSky:SAMESKY_UP32-C-H-G-SMT-3-P24-TR</field>
+        <field name="Datasheet">https://www.sameskydevices.com/product/resource/up32-c-h-g-smt-3-p24-tr.pdf</field>
+        <field name="Description">USB-C male 24-position horizontal mid-mount connector</field>
       </fields>
-      <libsource lib="Connector" part="USB_C_Receptacle" description="USB Full-Featured Type-C Receptacle connector"/>
+      <libsource lib="SameSky" part="UP32-C-H-G-SMT-3-P24-TR" description="USB-C male 24-position horizontal mid-mount connector"/>
       <property name="CONFIG" value=""/>
-      <property name="manf" value="GlobTek, Inc."/>
-      <property name="manf#" value="PLUG-USBC-241SMT-4BC2SS"/>
-      <property name="mouser#" value=""/>
-      <property name="digikey#" value="1939-PLUG-USBC-241SMT-4BC2SSCT-ND"/>
+      <property name="manf" value="Same Sky"/>
+      <property name="manf#" value="UP32-C-H-G-SMT-3-P24-TR"/>
+      <property name="mouser#" value="179-UP32CHGSMT3P24TR"/>
+      <property name="digikey#" value="2223-UP32-C-H-G-SMT-3-P24-TRCT-ND"/>
       <property name="Sheetname" value="Main"/>
       <property name="Sheetfile" value="Main.kicad_sch"/>
-      <property name="ki_keywords" value="usb universal serial bus type-C full-featured"/>
-      <property name="ki_fp_filters" value="USB*C*Receptacle*"/>
+      <property name="ki_keywords" value="USB C male plug Same Sky 24 pins"/>
+      <property name="ki_fp_filters" value="SAMESKY_UP32-C-H-G-SMT-3-P24-TR"/>
       <sheetpath names="/Project Architecture/Main/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2/"/>
       <tstamps>ffc731a8-b733-42af-83bc-5fe747e3f89a</tstamps>
     </comp>
@@ -647,6 +649,48 @@
         <pin num="5" name="OUT" type="power_out"/>
       </pins>
     </libpart>
+    <libpart lib="SameSky" part="UP32-C-H-G-SMT-3-P24-TR">
+      <description>USB-C male 24-position horizontal mid-mount connector</description>
+      <docs>https://www.sameskydevices.com/product/resource/up32-c-h-g-smt-3-p24-tr.pdf</docs>
+      <footprints>
+        <fp>SAMESKY_UP32-C-H-G-SMT-3-P24-TR</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">UP32-C-H-G-SMT-3-P24-TR</field>
+        <field name="Footprint">SameSky:SAMESKY_UP32-C-H-G-SMT-3-P24-TR</field>
+        <field name="Datasheet">https://www.sameskydevices.com/product/resource/up32-c-h-g-smt-3-p24-tr.pdf</field>
+        <field name="Description">USB-C male 24-position horizontal mid-mount connector</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="passive"/>
+        <pin num="A2" name="SSTXP1" type="passive"/>
+        <pin num="A3" name="SSTXN1" type="passive"/>
+        <pin num="A4" name="VBUS" type="passive"/>
+        <pin num="A5" name="CC1" type="passive"/>
+        <pin num="A6" name="DP1" type="passive"/>
+        <pin num="A7" name="DN1" type="passive"/>
+        <pin num="A8" name="SBU1" type="passive"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A10" name="SSRXN2" type="passive"/>
+        <pin num="A11" name="SSRXP2" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B2" name="SSTXP2" type="passive"/>
+        <pin num="B3" name="SSTXN2" type="passive"/>
+        <pin num="B4" name="VBUS" type="passive"/>
+        <pin num="B5" name="CC2" type="passive"/>
+        <pin num="B6" name="DP2" type="passive"/>
+        <pin num="B7" name="DN2" type="passive"/>
+        <pin num="B8" name="SBU2" type="passive"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B10" name="SSRXN1" type="passive"/>
+        <pin num="B11" name="SSRXP1" type="passive"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="SH1" name="SHIELD" type="passive"/>
+        <pin num="SH2" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
   </libparts>
   <libraries>
     <library logical="Connector">
@@ -663,6 +707,9 @@
     </library>
     <library logical="Regulator_Linear">
       <uri>/usr/share/kicad/symbols//Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="SameSky">
+      <uri>/__w/ZSWatch-Minimal-Dock-HW/ZSWatch-Minimal-Dock-HW/minimal-dock/lib/lib_sym/SameSky.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
@@ -689,7 +736,8 @@
       <node ref="X404" pin="A12" pinfunction="GND" pintype="passive"/>
       <node ref="X404" pin="B1" pinfunction="GND" pintype="passive"/>
       <node ref="X404" pin="B12" pinfunction="GND" pintype="passive"/>
-      <node ref="X404" pin="S1" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="X404" pin="SH1" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="X404" pin="SH2" pinfunction="SHIELD" pintype="passive"/>
       <node ref="X405" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
     <net code="3" name="Net-(R403-Pad2)" class="Default">
@@ -710,36 +758,36 @@
     <net code="6" name="RESETn_{LV}" class="Default">
       <node ref="X401" pin="10" pinfunction="~{RESET}" pintype="open_collector"/>
       <node ref="X402" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="X404" pin="A8" pinfunction="SBU1" pintype="bidirectional"/>
+      <node ref="X404" pin="A8" pinfunction="SBU1" pintype="passive"/>
       <node ref="X405" pin="4" pinfunction="Pin_4" pintype="passive"/>
     </net>
     <net code="7" name="RxD_{LV}" class="Default">
-      <node ref="X404" pin="A2" pinfunction="TX1+" pintype="bidirectional"/>
+      <node ref="X404" pin="A2" pinfunction="SSTXP1" pintype="passive"/>
       <node ref="X405" pin="2" pinfunction="Pin_2" pintype="passive"/>
     </net>
     <net code="8" name="SWDCLK_{LV}" class="Default">
       <node ref="X401" pin="4" pinfunction="SWCLK/TCK" pintype="output"/>
       <node ref="X402" pin="4" pinfunction="Pin_4" pintype="passive"/>
-      <node ref="X404" pin="A11" pinfunction="RX2+" pintype="bidirectional"/>
+      <node ref="X404" pin="A11" pinfunction="SSRXP2" pintype="passive"/>
     </net>
     <net code="9" name="SWDIO_{LV}" class="Default">
       <node ref="X401" pin="2" pinfunction="SWDIO/TMS" pintype="bidirectional"/>
       <node ref="X402" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="X404" pin="A10" pinfunction="RX2-" pintype="bidirectional"/>
+      <node ref="X404" pin="A10" pinfunction="SSRXN2" pintype="passive"/>
     </net>
     <net code="10" name="TxD_{LV}" class="Default">
-      <node ref="X404" pin="A3" pinfunction="TX1-" pintype="bidirectional"/>
+      <node ref="X404" pin="A3" pinfunction="SSTXN1" pintype="passive"/>
       <node ref="X405" pin="3" pinfunction="Pin_3" pintype="passive"/>
     </net>
     <net code="11" name="USB-D+" class="Default">
       <node ref="X403" pin="A6" pinfunction="D+" pintype="bidirectional"/>
       <node ref="X403" pin="B6" pinfunction="D+" pintype="bidirectional"/>
-      <node ref="X404" pin="A6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="X404" pin="A6" pinfunction="DP1" pintype="passive"/>
     </net>
     <net code="12" name="USB-D-" class="Default">
       <node ref="X403" pin="A7" pinfunction="D-" pintype="bidirectional"/>
       <node ref="X403" pin="B7" pinfunction="D-" pintype="bidirectional"/>
-      <node ref="X404" pin="A7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="X404" pin="A7" pinfunction="DN1" pintype="passive"/>
     </net>
     <net code="13" name="V_{BUS}" class="Default">
       <node ref="C301" pin="1" pintype="passive"/>
@@ -797,31 +845,31 @@
       <node ref="X403" pin="B3" pinfunction="TX2-" pintype="bidirectional+no_connect"/>
     </net>
     <net code="29" name="unconnected-(X404-CC1-PadA5)" class="Default">
-      <node ref="X404" pin="A5" pinfunction="CC1" pintype="bidirectional+no_connect"/>
+      <node ref="X404" pin="A5" pinfunction="CC1" pintype="passive+no_connect"/>
     </net>
     <net code="30" name="unconnected-(X404-CC2-PadB5)" class="Default">
-      <node ref="X404" pin="B5" pinfunction="CC2" pintype="bidirectional+no_connect"/>
+      <node ref="X404" pin="B5" pinfunction="CC2" pintype="passive+no_connect"/>
     </net>
-    <net code="31" name="unconnected-(X404-D+-PadB6)" class="Default">
-      <node ref="X404" pin="B6" pinfunction="D+" pintype="bidirectional+no_connect"/>
+    <net code="31" name="unconnected-(X404-DN2-PadB7)" class="Default">
+      <node ref="X404" pin="B7" pinfunction="DN2" pintype="passive+no_connect"/>
     </net>
-    <net code="32" name="unconnected-(X404-D--PadB7)" class="Default">
-      <node ref="X404" pin="B7" pinfunction="D-" pintype="bidirectional+no_connect"/>
+    <net code="32" name="unconnected-(X404-DP2-PadB6)" class="Default">
+      <node ref="X404" pin="B6" pinfunction="DP2" pintype="passive+no_connect"/>
     </net>
-    <net code="33" name="unconnected-(X404-RX1+-PadB11)" class="Default">
-      <node ref="X404" pin="B11" pinfunction="RX1+" pintype="bidirectional+no_connect"/>
+    <net code="33" name="unconnected-(X404-SBU2-PadB8)" class="Default">
+      <node ref="X404" pin="B8" pinfunction="SBU2" pintype="passive+no_connect"/>
     </net>
-    <net code="34" name="unconnected-(X404-RX1--PadB10)" class="Default">
-      <node ref="X404" pin="B10" pinfunction="RX1-" pintype="bidirectional+no_connect"/>
+    <net code="34" name="unconnected-(X404-SSRXN1-PadB10)" class="Default">
+      <node ref="X404" pin="B10" pinfunction="SSRXN1" pintype="passive+no_connect"/>
     </net>
-    <net code="35" name="unconnected-(X404-SBU2-PadB8)" class="Default">
-      <node ref="X404" pin="B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
+    <net code="35" name="unconnected-(X404-SSRXP1-PadB11)" class="Default">
+      <node ref="X404" pin="B11" pinfunction="SSRXP1" pintype="passive+no_connect"/>
     </net>
-    <net code="36" name="unconnected-(X404-TX2+-PadB2)" class="Default">
-      <node ref="X404" pin="B2" pinfunction="TX2+" pintype="bidirectional+no_connect"/>
+    <net code="36" name="unconnected-(X404-SSTXN2-PadB3)" class="Default">
+      <node ref="X404" pin="B3" pinfunction="SSTXN2" pintype="passive+no_connect"/>
     </net>
-    <net code="37" name="unconnected-(X404-TX2--PadB3)" class="Default">
-      <node ref="X404" pin="B3" pinfunction="TX2-" pintype="bidirectional+no_connect"/>
+    <net code="37" name="unconnected-(X404-SSTXP2-PadB2)" class="Default">
+      <node ref="X404" pin="B2" pinfunction="SSTXP2" pintype="passive+no_connect"/>
     </net>
   </nets>
 </export>
