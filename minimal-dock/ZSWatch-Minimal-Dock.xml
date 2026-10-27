@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/__w/ZSWatch-Minimal-Dock-HW/ZSWatch-Minimal-Dock-HW/minimal-dock/ZSWatch-Minimal-Dock.kicad_sch</source>
-    <date>2026-10-27T20:29:00+0000</date>
+    <date>2026-10-27T20:35:23+0000</date>
     <tool>Eeschema 9.0.7+1</tool>
     <textvar name="ASSEMBLY_NOTES"/>
     <textvar name="BOARD_NAME">Minimal-Dock-HW</textvar>
@@ -14,12 +14,14 @@
     <textvar name="GIT_URL">https://github.com/ZSWatch/ZSWatch-Minimal-Dock-HW</textvar>
     <textvar name="PROJECT_NAME">ZSWatch-Minimal-Dock</textvar>
     <textvar name="RELEASE_BODY_1.0.0">-   Initial release</textvar>
-    <textvar name="RELEASE_BODY_1.1.0">Version 1.1.0 not found.</textvar>
+    <textvar name="RELEASE_BODY_1.1.0">-   Replace the out-of-stock GlobTek USB-C plug (X404) with Same Sky UP32-C-H-G-SMT-3-P24-TR
+
+-   Change board thickness to 1.0 mm</textvar>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
     <textvar name="RELEASE_DATE">27-Oct-2026</textvar>
     <textvar name="RELEASE_DATE_NUM">2026-10-27</textvar>
     <textvar name="RELEASE_TITLE_1.0.0">Version 1.0.0 - 2026-06-02</textvar>
-    <textvar name="RELEASE_TITLE_1.1.0">Version 1.1.0 not found.</textvar>
+    <textvar name="RELEASE_TITLE_1.1.0">Version 1.1.0 - 2026-10-27</textvar>
     <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased not found.</textvar>
     <textvar name="REVISION"/>
     <textvar name="SHEET_NAME_1">Cover Page</textvar>
@@ -62,7 +64,7 @@
     <textvar name="SHEET_NAME_7">......................................</textvar>
     <textvar name="SHEET_NAME_8">......................................</textvar>
     <textvar name="SHEET_NAME_9">......................................</textvar>
-    <textvar name="VARIANT">CHECKED</textvar>
+    <textvar name="VARIANT">RELEASED</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Dock-DevKit</title>
